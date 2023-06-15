@@ -1,4 +1,4 @@
-# Neede to resolve path issue to calculator module
+# Needed to resolve path issue to calculator module
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -20,4 +20,3 @@ def test_mul():
 
 def test_div():
     assert div(2, 1) == 2
-#
