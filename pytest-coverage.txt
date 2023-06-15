@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.8, pytest-7.3.1, pluggy-1.0.0
+rootdir: /workspaces/week1-devops
+plugins: cov-4.1.0
+collected 4 items
+
+tests/test_calculator.py ....                                            [100%]
+
+----------- generated xml file: /workspaces/week1-devops/pytest.xml ------------
+
+---------- coverage: platform linux, python 3.10.8-final-0 -----------
+Name            Stmts   Miss  Cover   Missing
+---------------------------------------------
+calculator.py      15      6    60%   24-29
+---------------------------------------------
+TOTAL              15      6    60%
+
+============================== 4 passed in 0.05s ===============================
