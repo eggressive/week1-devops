@@ -28,6 +28,6 @@ jobs:
         run: |
           python -m pytest -v tests
 
-      - name: Run tests with coverage
-        run: |
-          pytest --cov=./ --cov-report=xml
+#      - name: Run tests with coverage
+#        run: |
+#          pytest --cov=./ --cov-report=xml
